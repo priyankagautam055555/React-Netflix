@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   <script>
+    /*const oldArray = ['firstmethod','secondmethod',
+    'threemethod','fourmethod','fivemethod'];
+    const newArray = oldArray.map(function(curvalue,index,arr){
+      console.log(arr);
+      console.log(newArray);
+      console.log(oldArray);
+      return curvalue + "Singh";*/
+      
+    
+    //console.log(arr);
+    const totalMember = 
+      [
+          {name:'priyanka',classname:'MCA',rollnumber:''},
+          { name: 'patanahi', classname: 'BCA', rollnumber: '' },
+          { name: 'Lavi', classname: 'Both', rollnumber: '' },
+          { name: 'diyana', classname: 'Master Degree', rollnumber: '' }  
+      ];
+    const newvalues= totalMember.map((currentvalue)=>{
+      return `My name is ${currentvalue.name}. My class name is ${currentvalue.classname}`
+    });
+    console.log(newvalues);
+   </script>
+  </body>
+</html>
